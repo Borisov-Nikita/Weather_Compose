@@ -1,3 +1,88 @@
 <resources>
     <string name="app_name">Weather Compose</string>
+    <string name="lorem_ipsum">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
+    <string name="location_service_dialog_title">Turn On Location Service</string>
+    <string name="location_service_dialog_description">The location service is disabled. Without it, it will be impossible to determine the current location.</string>
+    <string name="network_service_dialog_title">Turn On Network Service</string>
+    <string name="network_service_dialog_description">The network service is disabled. Without it, it will be impossible to download data.</string>
+    <string name="foreground_location_permission_dialog_title">Turn On Location Service</string>
+    <string name="foreground_location_permission_dialog_description">Permission is required to determine your current location.</string>
+    <string name="current_location">Current location</string>
+    <string name="search_location">Search location</string>
+
+    <string name="error_define_current_location">Failed to determine current location.</string>
+    <string name="forecast_title">Forecast</string>
+    <string name="location_title">Location</string>
+    <string name="settings_title">Settings</string>
+    <string name="back_button_description">Back</string>
+    <string name="dismiss_dialog">Cancel</string>
+    <string name="confirm_dialog">Enable</string>
+    <string name="determine_current_location_dialog_title">Determining your current location</string>
+    <string name="determine_current_location_dialog_description">Services determine your current location. It can take some time.</string>
+    <string name="temperature">Temperature</string>
+    <string name="wind_speed">Wind speed</string>
+
+    <!--    String with format-->
+    <string name="temp_feels_like_format">Feels like: %1$s %2$s</string>
+    <string name="temp_max_min_format">%1$s / %2$s %3$s</string>
+    <string name="unit_celsius_format">%1$s °C</string>
+    <string name="unit_fahrenheit_format">%1$s °F</string>
+    <string name="unit_km_p_h_format">%1$s km/h</string>
+    <string name="unit_m_p_h_format">%1$s mp/h</string>
+    <string name="unit_m_p_s_format">%1$s m/s</string>
+    <string name="unit_percentage_format">%1$s %%</string>
+
+    <!--    Units-->
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <string name="unit_km_p_h">km/h</string>
+    <string name="unit_m_p_h">mp/h</string>
+    <string name="unit_m_p_s">m/s</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_celsius_description">Celsius (°C)</string>
+    <string name="unit_fahrenheit_description">Fahrenheit (°F)</string>
+    <string name="unit_km_p_h_description">Kilometers per hour (km/h)</string>
+    <string name="unit_m_p_h_description">Miles per hour (mp/h)</string>
+    <string name="unit_m_p_s_description">Meters per second (m/s)</string>
+
+    <!--    Weather interpretation codes description-->
+    <string name="code_0_day">Sunny</string>
+    <string name="code_0_night">Clear</string>
+    <string name="code_1_day">Mainly sunny</string>
+    <string name="code_1_night">Mainly clear</string>
+    <string name="code_2">Partly cloudy</string>
+    <string name="code_3">Cloudy</string>
+    <string name="code_45">Foggy</string>
+    <string name="code_48">Rime fog</string>
+    <string name="code_51">Light drizzle</string>
+    <string name="code_53">Drizzle</string>
+    <string name="code_55">Heavy drizzle</string>
+    <string name="code_56">Light freezing drizzle</string>
+    <string name="code_57">Freezing drizzle</string>
+    <string name="code_61">Light rain</string>
+    <string name="code_63">Rain</string>
+    <string name="code_65">Heavy rain</string>
+    <string name="code_66">Light freezing rain</string>
+    <string name="code_67">Freezing rain</string>
+    <string name="code_71">Light snow</string>
+    <string name="code_73">Snow</string>
+    <string name="code_75">Heavy snow</string>
+    <string name="code_77">Snow grains</string>
+    <string name="code_80">Light showers</string>
+    <string name="code_81">Showers</string>
+    <string name="code_82">Heavy showers</string>
+    <string name="code_85">Light snow showers</string>
+    <string name="code_86">Snow showers</string>
+    <string name="code_95">Thunderstorm</string>
+    <string name="code_96">Thunderstorm with slight hail</string>
+    <string name="code_99">Thunderstorm with hail</string>
+
+    <!--    Next-->
+    <string name="wind">Wind</string>
+    <string name="rainfall">Rainfall</string>
+    <string name="humidity">Humidity</string>
+    <string name="current_weather">Current weather</string>
+    <string name="hourly_forecast">Hourly forecast</string>
+    <string name="daily_forecast">Daily forecast</string>
+    <string name="error_failed_to_update">Failed to update the weather forecast. Check your network connection.</string>
 </resources>
