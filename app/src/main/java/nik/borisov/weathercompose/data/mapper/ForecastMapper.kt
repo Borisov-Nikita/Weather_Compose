@@ -64,6 +64,7 @@ class ForecastMapper @Inject constructor() {
     ): List<HourlyForecastItem> {
         val startHourIndex = dto.hourlyForecasts.time.indexOf(hourStart)
         val forecastList = mutableListOf<HourlyForecastItem>()
+        if (startHourIndex < 0) return forecastList.toList()
         for (index in startHourIndex until startHourIndex + hourAmount) {
             forecastList.add(
                 HourlyForecastItem(
@@ -89,6 +90,7 @@ class ForecastMapper @Inject constructor() {
     ): List<DailyForecastItem> {
         val startDayIndex = dto.dailyForecasts.time.indexOf(dayStart)
         val forecastList = mutableListOf<DailyForecastItem>()
+        if (startDayIndex < 0) return forecastList.toList()
         for (index in startDayIndex until dto.dailyForecasts.time.size) {
             forecastList.add(
                 DailyForecastItem(
